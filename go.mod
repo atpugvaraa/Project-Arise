@@ -2,7 +2,10 @@ module project-arise
 
 go 1.26.4
 
-require github.com/gen2brain/raylib-go/raylib v0.60.0
+require (
+	github.com/gen2brain/raylib-go/raygui v0.0.0-20260619180708-8f9e96aca992
+	github.com/gen2brain/raylib-go/raylib v0.60.0
+)
 
 require (
 	github.com/ebitengine/purego v0.10.1 // indirect
